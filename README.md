@@ -8,6 +8,7 @@
 **О чем проект**
 
 Проект о путешествии по России.
+[https://sergeymmedvedev.github.io/russian-travel/]
 
 **Используемые тхнологии**
 
