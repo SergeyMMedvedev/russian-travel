@@ -1,0 +1,31 @@
+.section {
+  padding: 0 48px 92px 48px;
+}
+
+@media (max-width: 1024px) {
+  .section {
+    padding-left: calc((100% - 928px) / 2);
+    padding-right: calc((100% - 928px) / 2);;
+  }
+}
+
+@media (max-width: 976px) {
+  .section {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .section {
+    padding: 0 24px 88px 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .section {
+    padding: 0 16px 64px 16px;
+  }
+}

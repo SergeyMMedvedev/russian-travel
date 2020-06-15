@@ -1,0 +1,19 @@
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__image/cover__image.css);
+@import url(./__titles/cover__titles.css);
+@import url(./__title/cover__title.css);
+@import url(./__link/cover__link.css);
+
+.cover {
+  padding-top: 0;
+  padding-bottom: 92px;
+  padding-right:  calc((100% - 1184px) / 2);
+  padding-left: calc((100% - 1184px) / 2);
+}
+
+@media (max-width:1024px) {
+  .cover {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

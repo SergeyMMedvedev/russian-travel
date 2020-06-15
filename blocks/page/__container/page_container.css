@@ -1,0 +1,12 @@
+.page__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #2a2c2f;
+}
+
+@media (max-width: 768px) {
+  .page {
+    min-width: 320px;
+  }
+}

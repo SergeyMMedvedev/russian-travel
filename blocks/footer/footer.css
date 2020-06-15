@@ -1,0 +1,13 @@
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 709px) {
+  .footer {
+    flex-direction: column;
+  }
+}

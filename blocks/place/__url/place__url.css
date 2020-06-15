@@ -1,0 +1,9 @@
+.place__url{
+  align-self: end;
+}
+
+@media (max-width: 623px) {
+  .place__url{
+    display: none;
+  }
+}

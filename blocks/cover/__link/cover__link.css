@@ -1,0 +1,14 @@
+.cover__link {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+
+}
+
+.cover__link:hover .cover__image {
+  opacity: .2;
+}
+
+  

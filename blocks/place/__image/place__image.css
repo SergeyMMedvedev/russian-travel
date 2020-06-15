@@ -1,0 +1,17 @@
+.place__image {
+  width: 100%;
+}
+
+@media (max-width: 623px) {
+  .place__image {
+    width: calc(100% + 48px);
+    transform: translate(-24px, 0);
+  }
+}
+
+@media (max-width: 320px) {
+  .place__image {
+    width: calc(100% + 32px);
+    transform: translate(-16px, 0);
+  }
+}

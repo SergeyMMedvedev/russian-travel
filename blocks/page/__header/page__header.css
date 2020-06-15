@@ -1,0 +1,10 @@
+.page__header {
+  padding-top: 28px;
+  padding-bottom: 56px;
+}
+
+@media (max-width: 1024px) {
+  .page__header  {
+    padding-bottom: 48px;
+  }
+}
