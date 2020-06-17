@@ -1,5 +1,4 @@
 @import url(./__subtitle/cover__subtitle.css);
-@import url(./__titles/cover__titles.css);
 @import url(./__title/cover__title.css);
 @import url(./__link/cover__link.css);
 @import url(./__content/cover__content.css);
@@ -9,6 +8,10 @@
   padding-bottom: 92px;
   padding-right:  calc((100% - 1184px) / 2);
   padding-left: calc((100% - 1184px) / 2);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 @media (max-width:1024px) {
