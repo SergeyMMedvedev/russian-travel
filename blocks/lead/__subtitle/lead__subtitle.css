@@ -8,10 +8,6 @@
 
 @media (max-width: 1024px) {
   .lead__subtitle {
-    font-size: 30px;
-    line-height: 1.2;
-    max-width: 640px;
-    text-align: center;
     margin: 0 0 56px 0;
   }
 }
@@ -19,21 +15,12 @@
 @media (max-width: 768px) {
   .lead__subtitle {
     font-size: 3.9vw;
-    line-height: 1.2;
     width: 83.3%;
     min-width: 288px;
   }
 }
 
 @media (max-width: 410px) {
-  .lead__subtitle {
-    font-size: 16px;
-    line-height: 1.25;
-    margin: 0 0 40px 0;
-  }
-}
-
-@media (max-width: 320px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 1.25;

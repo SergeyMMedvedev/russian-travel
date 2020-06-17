@@ -4,18 +4,19 @@
 
 @media (max-width: 1024px) {
   .lead__image {
-    min-width: 768px;
+    min-width: 100%;
   }
 }
 
 @media (max-width: 768px) {
   .lead__image {
-    min-width: 100vw;
+    min-width: 320px;
+    width: calc(100% + 48px);
   }
 }
 
 @media (max-width: 320px) {
   .lead__image {
-    min-width: 320px;
+    width: calc(100% + 32px);
   }
 }

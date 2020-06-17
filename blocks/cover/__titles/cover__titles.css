@@ -1,8 +1,18 @@
 .cover__titles {
-  grid-column: 1;
-  grid-row: 1;
-  max-width: 560px;
-  align-self: center;
-  justify-self: center;
+  width: 560px;
+  height: 250px;
   z-index: 1;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-280px, -125px);
+}
+
+@media (max-width:623px) {
+  .cover__titles {
+    width: 288px;
+    height: 134px;
+    transform: translate(-144px, -67px);
+  }
 }

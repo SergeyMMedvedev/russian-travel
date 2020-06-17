@@ -5,17 +5,11 @@
   margin: 0;
 }
 
-@media (max-width: 768px) {
-  .cover__title {
-    font-size: 9.37vw;
-    line-height: 1.06;
-
-  }
-}
-
-@media (max-width: 320px) {
+@media (max-width: 623px) {
   .cover__title {
     font-size: 32px;
     line-height: 1.09;
+
   }
 }
+
